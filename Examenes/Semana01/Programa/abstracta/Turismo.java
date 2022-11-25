@@ -11,7 +11,7 @@ public class Turismo extends Vehiculo{
 		this.puertas = puertas;
 	}
 
-	//getter para númeor de puertas
+	//getter para número de puertas
 	public int getPuertas() {
 		return puertas;
 	}

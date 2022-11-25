@@ -21,7 +21,4 @@ public class Camion extends Vehiculo{// Extiende de la clase abstracta 'Vehiculo
 		return this.getClass().getSimpleName() +" [Peso: " + peso +" pertenece a "+ super.toString() + "]";
 	}//toString
 	
-
-
-
-}
+}//class Camion
