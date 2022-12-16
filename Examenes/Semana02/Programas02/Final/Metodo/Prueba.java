@@ -1,0 +1,32 @@
+package Metodo;
+
+public class Prueba {
+	
+    public static void main(String[] args) {
+    	
+        Persona persona1 = new Persona("Juan", 10);
+        persona1.imprimirDatosPersonales();
+        
+        if (persona1.esMayor()) {
+            System.out.println("Es mayor de edad");
+            }
+        else {
+            System.out.println("No es mayor de edad");
+            }//if-else
+        
+        Empleado empleado1 = new Empleado("Carlos", 22, 10000);
+        empleado1.imprimirDatosPersonales();
+        empleado1.imprimirSueldo();
+        
+        if (empleado1.esMayor()) {
+            System.out.println("Es mayor de edad");
+            }
+        else {
+            System.out.println("No es mayor de edad");
+            }//if-else
+    }//main
+}
+
+/*Nota:
+ * Errado con intención. Se busca demostrar la utilidad del 'final' en un metodo
+ * */
